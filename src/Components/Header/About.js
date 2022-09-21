@@ -1,6 +1,8 @@
 import React from 'react';
 import qoutes from '../../assets/quotes.svg'
 import people1 from '../../assets/people01.png'
+import people2 from '../../assets/people02.png'
+import people3 from '../../assets/people03.png'
 import binance from '../../assets/binance.png'
 import airbnb from '../../assets/airbnb.png'
 import coinbase from '../../assets/coinbase.png'
@@ -30,9 +32,9 @@ const About = () => {
                         <img src={qoutes} alt="" />
                         <p className='text-gray-400 mt-8'>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
                         <div className='flex  items-center mt-8'>
-                            <img className='w-12 mr-4' src={people1} alt="" />
+                            <img className='w-12 mr-4' src={people2} alt="" />
                             <div>
-                                <h6 className="text-white">Herman Jensen</h6>
+                                <h6 className="text-white">Steve Mark</h6>
                                 <p className='text-gray-400'>Founder & Leader</p>
                             </div>
                         </div>
@@ -41,9 +43,9 @@ const About = () => {
                         <img src={qoutes} alt="" />
                         <p className='text-gray-400 mt-8'>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
                         <div className='flex  items-center mt-8'>
-                            <img className='w-12 mr-4' src={people1} alt="" />
+                            <img className='w-12 mr-4' src={people3} alt="" />
                             <div>
-                                <h6 className="text-white">Herman Jensen</h6>
+                                <h6 className="text-white">Kenn Gallagher</h6>
                                 <p className='text-gray-400'>Founder & Leader</p>
                             </div>
                         </div>
